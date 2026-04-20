@@ -32,3 +32,16 @@ class Person {
   void intro() => print(
       "Hey everyone, Meet My Friend $name and he is $gender and he is $age years old");
 }
+
+class Laptop {
+  String? brand, model;
+  int? SerialNo;
+
+  Laptop(this.brand, this.model, this.SerialNo);
+  void showData() => print('''
+    Brand = $brand;
+    Model = $model;
+    Price = $price
+    
+    ''');
+}
