@@ -18,12 +18,7 @@ class Person {
 
   //constructor
 
-  Person(String name, gender, int age) {
-    this.name = name;
-    this.gender = gender;
-    this.age = age;
-  }
-
+  Person(this.name, this.gender, this.age);
   //method
   void showData() => print('''
     Name = $name;
